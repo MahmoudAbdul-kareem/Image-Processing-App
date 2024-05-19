@@ -1,5 +1,0 @@
-مطلوب من الفرقة الثانيه والفرقه الثالثه وسيتم عمل ملف للاكواد بتاعتك مع ملف اخر manual  يشرح تشغيل البروجكت وسيتم مناقشتك فيه وايضا وارساله لى على ايميل معين لكى افحصة ثانيه للتاكد من عدم الغش
-
-
-LPF, HPF, MEAN, MEDIAN, all Edge Detector3 (Roperts, Prewitt,  Sobel), Errotion, Dilation, Open,  Close,Hough transform for circle, Segmentation using region split and merge, Segmentation using thresholding
-مطلوب بروجكت به كل ماتم دراسته من خلال واجهه للبروجكت بها مفاتيح تحميل للصوره وعمل button لكل فلتر وتظهر نتيجة الفلتر على الصوره فى منفصل ..
