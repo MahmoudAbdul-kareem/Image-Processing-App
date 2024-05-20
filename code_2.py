@@ -183,10 +183,11 @@ class ImageProcessingApp:
         circles = cv2.HoughCircles(blurred, cv2.HOUGH_GRADIENT, dp=1.2, minDist=30, param1=50, param2=30, minRadius=15, maxRadius=30)
         if circles is not None:
             circles = np.round(circles[0, :]).astype("int")
+            hough_image = img.copy()
             for (x, y, r) in circles:
-                cv2.circle(img, (x, y), r, (0, 255, 0), 4)
-        return img
-
+                cv2.circle(hough_image, (x, y), r, (0, 255, 0), 4)
+                cv2.circle(hough_image, (x, y), 2, (0, 0, 255), 3)
+        return hough_image
     
     def region_split_and_merge(self, img, threshold=10):
         # Convert the image to grayscale
